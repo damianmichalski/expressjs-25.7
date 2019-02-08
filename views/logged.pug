@@ -3,5 +3,6 @@ html
         title Przykładowa strona
     body
         include ./header.pug
+        h1 Witaj !{JSON.stringify(user.displayName)}
         h3  Udało się! Zalogowałeś się! :)
         include ./footer.pug
